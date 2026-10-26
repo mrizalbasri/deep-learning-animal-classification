@@ -1,0 +1,40 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Data and large files
+data/
+datasets/
+dataset_split/
+raw-img/
+*.zip
+*.tar.gz
+*.tgz
+
+# Model binaries
+submission/saved_model/
+submission/tflite/
+submission/tfjs_model/
+
+# Model checkpoints & temporary weights
+checkpoints/
+*.h5
+*.keras
+
+# Submission zip
+*.rar
+submission.zip
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
